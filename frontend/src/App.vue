@@ -1,7 +1,7 @@
 <script setup>
 import { ref, computed, onMounted } from "vue";
 
-const API = "http://localhost:3000/expenses";
+const API = "https://expense-tracker-backend.onrender.com/expenses";
 
 const expenses = ref([]);
 const categoryFilter = ref("");
